@@ -1,0 +1,119 @@
+﻿@page
+@model BooklistRazor.Pages.MaterialModel
+@{
+    ViewData["Title"] = "Material";
+}
+
+<h1>Material</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <h2>BookList</h2>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-sm btn-primary" asp-page="Create"> Create Book</a>
+        </div>
+        <div class="border text-info mt-2">
+
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right text-uppercase">
+                <li><a id="Home" href="index.html">Home</a></li>
+                <!-- Visa drapdown-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Menu <span class="caret"></span></a>
+
+                    <ul class="dropdown-menu pull-left" role="menu">
+                        <li><a href="#">Menu Item 01</a></li>
+                        <li><a href="#">Menu Item 01</a></li>
+                        <li><a href="#">Menu Item 02</a></li>
+                        <li><a href="#">Menu Item 03</a></li>
+                        <li><a href="#">Menu Item 04</a></li>
+                        <li><a href="#"></a></li>
+
+                    </ul>
+
+                </li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+
+
+
+
+<div class="container-fluid ml-0 mr-0">
+    <div class="green">
+        <h1>hello</h1>
+    </div>
+
+    <div class="slide-wrapper">
+
+        <div id="homepage-feature" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#homepage-feature" data-slide-to="0" class="active"></li>
+                <li data-target="#homepage-feature" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image:url(http://lorempixel.com/1500/600/abstract)">
+                    <div class="carousel-caption">
+                        <h1>Changes to the Grid</h1>
+                        <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
+                        <p>
+                            <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item" style="background-image:url(http://placehold.it/1500x600)">
+                    <div class="carousel-caption">
+                        <h1>Percentage-based sizing</h1>
+                        <p>With "mobile-first" there is now only one percentage-based grid.</p>
+                        <p>
+                            <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+    </div>
+
